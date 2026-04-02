@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Premium Dark Theme Colors -->
+    <color name="colorPrimary">#0d1117</color>
+    <color name="colorPrimaryDark">#010409</color>
+    <color name="colorAccent">#58a6ff</color>
+    
+    <!-- Control Colors -->
+    <color name="colorControlNormal">#58a6ff</color>
+    <color name="colorControlHighlight">#79c0ff</color>
+    
+    <!-- Background Colors -->
+    <color name="bg_dark">#010409</color>
+    <color name="bg_card">#0d1117</color>
+    <color name="bg_card_secondary">#161b22</color>
+    <color name="bg_input">#0d1117</color>
+    <color name="bg_input_border">#30363d</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#c9d1d9</color>
+    <color name="text_secondary">#8b949e</color>
+    <color name="text_hint">#484f58</color>
+    <color name="text_accent">#58a6ff</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent_blue">#58a6ff</color>
+    <color name="accent_blue_light">#79c0ff</color>
+    <color name="accent_cyan">#39c5cf</color>
+    
+    <!-- Component Colors -->
+    <color name="divider">#21262d</color>
+    <color name="border">#30363d</color>
+    <color name="shadow">#1c2128</color>
+</resources>
