@@ -1,0 +1,53 @@
+Signature-Version: 1.0
+Created-By: Android Gradle 8.0.2
+SHA-256-Digest-Manifest: kLK/LzAy/5R4/QYEPNNmaR8YT/q1/P++z/4p+jPm13w=
+X-Android-APK-Signed: 2,3
+
+Name: AndroidManifest.xml
+SHA-256-Digest: 2HE6yUuFp8fHhqA5V8kZVCkcU43eLhgtbuU5XU9VqYk=
+
+Name: classes.dex
+SHA-256-Digest: GRnGv4ZrxbNSW/5n69ox5XNsgpal0KdC2sgFpHqsSRc=
+
+Name: classes2.dex
+SHA-256-Digest: MHilnj384KTO6I6GJF3JuxGkPcSJMTdl3e23x9z/1Yk=
+
+Name: res/drawable-xhdpi-v4/default_image.png
+SHA-256-Digest: aktsDrhwy3ex8ad59r3aoV+5TJncFYVy98Lcvjc4s44=
+
+Name: res/drawable-xhdpi-v4/icon_clear_round.xml
+SHA-256-Digest: s8Trk4x1IPgxWQosmxaI12qNUYYxh90nZuFx8JK2sWo=
+
+Name: res/drawable-xhdpi-v4/icon_minus_round.xml
+SHA-256-Digest: lTRtiDUgehhFHM9bniPHd9bWRbREX5jGh0A/GR0SlNU=
+
+Name: res/drawable-xhdpi-v4/itac.png
+SHA-256-Digest: uR/7gBlfqvyZK7yNwbPtOed4DxpLZMJbjVfbwYtaOSI=
+
+Name: res/drawable-xhdpi-v4/itach.png
+SHA-256-Digest: R3Hqz7dW3RlwLL7ZvsSSkagA7Bfotypk1lokoTKtYHE=
+
+Name: res/drawable-xhdpi-v4/itachi.png
+SHA-256-Digest: sXu+oeulNInu6xF2UhbTjc7jB/3nlNxJoUUK5MiwOIA=
+
+Name: res/drawable/thumb.xml
+SHA-256-Digest: vs9obW2GxqhUw6Oy/q99HYrHtQw4+EQV0wA/fK4ZVGY=
+
+Name: res/drawable/track.xml
+SHA-256-Digest: 1TVY2tnLC0RE7iDGL1Z17/B81PQrdr1ki4qbHNsApOQ=
+
+Name: res/layout/floating.xml
+SHA-256-Digest: uVCHwu1GFAU2KzGDWKFNYPmh6iYLxvmH9xmbD1Zggn0=
+
+Name: res/layout/main.xml
+SHA-256-Digest: GdC4eEykxNv//WhgYW7OU2mRY8zjEvs08cu4xxEKor8=
+
+Name: res/mipmap-xhdpi-v4/ic_launcher.png
+SHA-256-Digest: bGw9LUS1JKki+MRkv61xheET6xFsMsUupnd+2c17cbE=
+
+Name: res/raw/ryzenx.mp4
+SHA-256-Digest: 9jMYVQCionaMiMfyF1u4ixJlY/xYQ4jhAxXEBLQbVi0=
+
+Name: resources.arsc
+SHA-256-Digest: 2zHktLXhjRlLAr93zhZqLE4iRX3e1toEqzNaljR63YY=
+
