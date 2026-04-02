@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_dark"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/linear1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+        
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@id/linear2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/linear3"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_card"
+                android:elevation="16dp">
+                
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="24dp"
+                    android:paddingTop="40dp"
+                    android:paddingBottom="24dp"
+                    android:background="@color/bg_card_secondary">
+                    
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:id="@id/linear4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp">
+                        
+                        <ImageView
+                            android:id="@id/imageview2"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:src="@drawable/itac"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="12dp" />
+                        
+                        <TextView
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/text_accent"
+                            android:id="@id/textview1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ITACHI" />
+                        
+                        <ImageView
+                            android:id="@id/imageview1"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:src="@drawable/itac"
+                            android:scaleType="fitXY"
+                            android:layout_marginLeft="12dp" />
+                    </LinearLayout>
+                    
+                    <TextView
+                        android:textSize="11sp"
+                        android:textColor="@color/text_secondary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PREMIUM PANEL" />
+                </LinearLayout>
+                
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@id/linear5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="24dp"
+                    android:paddingTop="32dp"
+                    android:paddingBottom="32dp">
+                    
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:id="@id/linear6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="32dp">
+                        
+                        <TextView
+                            android:textSize="12sp"
+                            android:textColor="@color/text_secondary"
+                            android:id="@id/textview2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sign in to your account" />
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@id/linear_usuario"
+                        android:layout_width="fill_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginBottom="16dp"
+                        android:background="@color/bg_input"
+                        android:padding="2dp">
+                        
+                        <EditText
+                            android:textSize="14sp"
+                            android:textStyle="normal"
+                            android:textColor="@color/text_primary"
+                            android:textColorHint="@color/text_hint"
+                            android:id="@id/usuario"
+                            android:background="@android:color/transparent"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:hint="Username or Email"
+                            android:inputType="text"
+                            android:paddingLeft="12dp"
+                            android:paddingRight="12dp"
+                            android:gravity="center_vertical" />
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@id/linear_senha"
+                        android:layout_width="fill_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginBottom="32dp"
+                        android:background="@color/bg_input"
+                        android:padding="2dp">
+                        
+                        <EditText
+                            android:textSize="14sp"
+                            android:textStyle="normal"
+                            android:textColor="@color/text_primary"
+                            android:textColorHint="@color/text_hint"
+                            android:id="@id/senha"
+                            android:background="@android:color/transparent"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:hint="Password"
+                            android:inputType="textPassword"
+                            android:paddingLeft="12dp"
+                            android:paddingRight="12dp"
+                            android:gravity="center_vertical" />
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:id="@id/button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="52dp"
+                        android:background="@color/accent_blue"
+                        android:elevation="8dp">
+                        
+                        <TextView
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/bg_dark"
+                            android:id="@id/textview3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="SIGN IN" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
