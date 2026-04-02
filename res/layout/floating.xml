@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/menu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/icone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:gravity="center_vertical">
+            
+            <ImageView
+                android:id="@id/imageview1"
+                android:focusable="false"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:src="@drawable/itachi"
+                android:scaleType="fitXY"
+                android:layout_marginRight="12dp" />
+            
+            <ImageView
+                android:id="@id/close"
+                android:focusable="false"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/icon_clear_round"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/fundo"
+            android:background="@color/bg_card"
+            android:layout_width="440dp"
+            android:layout_height="300dp"
+            android:elevation="20dp">
+            
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@id/topo"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/accent_blue">
+                
+                <TextView
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/bg_dark"
+                    android:id="@id/textview1"
+                    android:focusable="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ITACHI PANEL ADVANCED FEATURES" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/fundo1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@id/N1"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="12dp"
+                    android:layout_weight="1.0">
+                    
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:id="@id/topo2"
+                        android:background="@color/bg_card_secondary"
+                        android:paddingLeft="12dp"
+                        android:paddingRight="12dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        
+                        <TextView
+                            android:textSize="11sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/text_accent"
+                            android:id="@id/textview2"
+                            android:focusable="false"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="FEATURES" />
+                    </LinearLayout>
+                    
+                    <ScrollView
+                        android:id="@id/scroll1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="8dp">
+                        
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:id="@id/N3"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+                            
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:id="@id/L1"
+                                android:paddingLeft="6dp"
+                                android:paddingRight="6dp"
+                                android:paddingTop="6dp"
+                                android:paddingBottom="6dp"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dp">
+                                
+                                <Switch
+                                    android:textSize="11sp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/text_primary"
+                                    android:id="@id/S1"
+                                    android:focusable="false"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:thumb="@drawable/thumb"
+                                    android:text="Sensitivity Head"
+                                    android:layout_weight="1.0"
+                                    android:track="@drawable/track" />
+                            </LinearLayout>
+                            
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:id="@id/L2"
+                                android:paddingLeft="6dp"
+                                android:paddingRight="6dp"
+                                android:paddingTop="6dp"
+                                android:paddingBottom="6dp"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dp">
+                                
+                                <Switch
+                                    android:textSize="11sp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/text_primary"
+                                    android:id="@id/S2"
+                                    android:focusable="false"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:thumb="@drawable/thumb"
+                                    android:text="Sensitivity Pro"
+                                    android:layout_weight="1.0"
+                                    android:track="@drawable/track" />
+                            </LinearLayout>
+                            
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:id="@id/L3"
+                                android:paddingLeft="6dp"
+                                android:paddingRight="6dp"
+                                android:paddingTop="6dp"
+                                android:paddingBottom="6dp"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dp">
+                                
+                                <Switch
+                                    android:textSize="11sp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/text_primary"
+                                    android:id="@id/S3"
+                                    android:focusable="false"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:thumb="@drawable/thumb"
+                                    android:text="Focus Head"
+                                    android:layout_weight="1.0"
+                                    android:track="@drawable/track" />
+                            </LinearLayout>
+                            
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:id="@id/L4"
+                                android:paddingLeft="6dp"
+                                android:paddingRight="6dp"
+                                android:paddingTop="6dp"
+                                android:paddingBottom="6dp"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dp">
+                                
+                                <Switch
+                                    android:textSize="11sp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/text_primary"
+                                    android:id="@id/S4"
+                                    android:focusable="false"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:thumb="@drawable/thumb"
+                                    android:text="Force Headtrick"
+                                    android:layout_weight="1.0"
+                                    android:track="@drawable/track" />
+                            </LinearLayout>
+                            
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:id="@id/L5"
+                                android:paddingLeft="6dp"
+                                android:paddingRight="6dp"
+                                android:paddingTop="6dp"
+                                android:paddingBottom="6dp"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dp">
+                                
+                                <Switch
+                                    android:textSize="11sp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/text_primary"
+                                    android:id="@id/S5"
+                                    android:focusable="false"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:thumb="@drawable/thumb"
+                                    android:text="Force Trick Shot"
+                                    android:layout_weight="1.0"
+                                    android:track="@drawable/track" />
+                            </LinearLayout>
+                            
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:id="@id/L6"
+                                android:paddingLeft="6dp"
+                                android:paddingRight="6dp"
+                                android:paddingTop="6dp"
+                                android:paddingBottom="6dp"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dp">
+                                
+                                <Switch
+                                    android:textSize="11sp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/text_primary"
+                                    android:id="@id/S6"
+                                    android:focusable="false"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:thumb="@drawable/thumb"
+                                    android:text="Unlock Head"
+                                    android:layout_weight="1.0"
+                                    android:track="@drawable/track" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+                
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:id="@id/N2"
+                    android:layout_width="150dp"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="12dp"
+                    android:background="@color/bg_card_secondary">
+                    
+                    <ImageView
+                        android:id="@id/itachi"
+                        android:focusable="false"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/itach"
+                        android:scaleType="fitXY" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
