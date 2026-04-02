@@ -1,6 +1,6 @@
-.class public abstract Lorg/apache/http/impl/cookie/AbstractCookieAttributeHandler;
+.class public Lorg/apache/http/impl/cookie/RFC2109DomainHandler;
 .super Ljava/lang/Object;
-.source "AbstractCookieAttributeHandler.java"
+.source "RFC2109DomainHandler.java"
 
 # interfaces
 .implements Lorg/apache/http/cookie/CookieAttributeHandler;
@@ -36,7 +36,28 @@
     .param p2, "origin"    # Lorg/apache/http/cookie/CookieOrigin;
 
     .prologue
-    .line 38
+    .line 39
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    const-string v1, "Stub!"
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public parse(Lorg/apache/http/cookie/SetCookie;Ljava/lang/String;)V
+    .locals 2
+    .param p1, "cookie"    # Lorg/apache/http/cookie/SetCookie;
+    .param p2, "value"    # Ljava/lang/String;
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lorg/apache/http/cookie/MalformedCookieException;
+        }
+    .end annotation
+
+    .prologue
+    .line 37
     new-instance v0, Ljava/lang/RuntimeException;
 
     const-string v1, "Stub!"
@@ -57,7 +78,7 @@
     .end annotation
 
     .prologue
-    .line 37
+    .line 38
     new-instance v0, Ljava/lang/RuntimeException;
 
     const-string v1, "Stub!"

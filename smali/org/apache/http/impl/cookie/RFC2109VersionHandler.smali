@@ -1,9 +1,6 @@
-.class public abstract Lorg/apache/http/impl/cookie/AbstractCookieAttributeHandler;
-.super Ljava/lang/Object;
-.source "AbstractCookieAttributeHandler.java"
-
-# interfaces
-.implements Lorg/apache/http/cookie/CookieAttributeHandler;
+.class public Lorg/apache/http/impl/cookie/RFC2109VersionHandler;
+.super Lorg/apache/http/impl/cookie/AbstractCookieAttributeHandler;
+.source "RFC2109VersionHandler.java"
 
 
 # annotations
@@ -17,7 +14,7 @@
 
     .prologue
     .line 36
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Lorg/apache/http/impl/cookie/AbstractCookieAttributeHandler;-><init>()V
 
     new-instance v0, Ljava/lang/RuntimeException;
 
@@ -30,13 +27,18 @@
 
 
 # virtual methods
-.method public match(Lorg/apache/http/cookie/Cookie;Lorg/apache/http/cookie/CookieOrigin;)Z
+.method public parse(Lorg/apache/http/cookie/SetCookie;Ljava/lang/String;)V
     .locals 2
-    .param p1, "cookie"    # Lorg/apache/http/cookie/Cookie;
-    .param p2, "origin"    # Lorg/apache/http/cookie/CookieOrigin;
+    .param p1, "cookie"    # Lorg/apache/http/cookie/SetCookie;
+    .param p2, "value"    # Ljava/lang/String;
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lorg/apache/http/cookie/MalformedCookieException;
+        }
+    .end annotation
 
     .prologue
-    .line 38
+    .line 37
     new-instance v0, Ljava/lang/RuntimeException;
 
     const-string v1, "Stub!"
@@ -57,7 +59,7 @@
     .end annotation
 
     .prologue
-    .line 37
+    .line 38
     new-instance v0, Ljava/lang/RuntimeException;
 
     const-string v1, "Stub!"

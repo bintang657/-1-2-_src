@@ -1,9 +1,6 @@
-.class public abstract Lorg/apache/http/impl/cookie/AbstractCookieAttributeHandler;
-.super Ljava/lang/Object;
-.source "AbstractCookieAttributeHandler.java"
-
-# interfaces
-.implements Lorg/apache/http/cookie/CookieAttributeHandler;
+.class public Lorg/apache/http/impl/cookie/NetscapeDomainHandler;
+.super Lorg/apache/http/impl/cookie/BasicDomainHandler;
+.source "NetscapeDomainHandler.java"
 
 
 # annotations
@@ -17,7 +14,7 @@
 
     .prologue
     .line 36
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Lorg/apache/http/impl/cookie/BasicDomainHandler;-><init>()V
 
     new-instance v0, Ljava/lang/RuntimeException;
 
