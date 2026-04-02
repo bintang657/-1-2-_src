@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="L1" />
+    <item type="id" name="L2" />
+    <item type="id" name="L3" />
+    <item type="id" name="L4" />
+    <item type="id" name="L5" />
+    <item type="id" name="L6" />
+    <item type="id" name="N1" />
+    <item type="id" name="N2" />
+    <item type="id" name="N3" />
+    <item type="id" name="S1" />
+    <item type="id" name="S2" />
+    <item type="id" name="S3" />
+    <item type="id" name="S4" />
+    <item type="id" name="S5" />
+    <item type="id" name="S6" />
+    <item type="id" name="button" />
+    <item type="id" name="close" />
+    <item type="id" name="fundo" />
+    <item type="id" name="fundo1" />
+    <item type="id" name="icone" />
+    <item type="id" name="imageview1" />
+    <item type="id" name="imageview2" />
+    <item type="id" name="itachi" />
+    <item type="id" name="linear1" />
+    <item type="id" name="linear2" />
+    <item type="id" name="linear3" />
+    <item type="id" name="linear4" />
+    <item type="id" name="linear5" />
+    <item type="id" name="linear6" />
+    <item type="id" name="linear_senha" />
+    <item type="id" name="linear_usuario" />
+    <item type="id" name="menu" />
+    <item type="id" name="scroll1" />
+    <item type="id" name="senha" />
+    <item type="id" name="textview1" />
+    <item type="id" name="textview2" />
+    <item type="id" name="textview3" />
+    <item type="id" name="topo" />
+    <item type="id" name="topo2" />
+    <item type="id" name="usuario" />
+</resources>
